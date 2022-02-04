@@ -82,35 +82,68 @@ body {
 .clock .number1 {
   transform: rotate(30deg);
 }
+.clock .number1 div {
+  transform: rotate(-30deg);
+}
 .clock .number2 {
   transform: rotate(60deg);
+}
+.clock .number2 div {
+  transform: rotate(-60deg);
 }
 .clock .number3 {
   transform: rotate(90deg);
 }
+.clock .number3 div {
+  transform: rotate(-90deg);
+}
 .clock .number4 {
   transform: rotate(120deg);
+}
+.clock .number4 div {
+  transform: rotate(-120deg);
 }
 .clock .number5 {
   transform: rotate(150deg);
 }
+.clock .number5 div {
+  transform: rotate(-150deg);
+}
 .clock .number6 {
   transform: rotate(180deg);
+}
+.clock .number6 div {
+  transform: rotate(-180deg);
 }
 .clock .number7 {
   transform: rotate(210deg);
 }
+.clock .number7 div {
+  transform: rotate(-210deg);
+}
 .clock .number8 {
   transform: rotate(240deg);
+}
+.clock .number8 div {
+  transform: rotate(-240deg);
 }
 .clock .number9 {
   transform: rotate(270deg);
 }
+.clock .number9 div {
+  transform: rotate(-270deg);
+}
 .clock .number10 {
   transform: rotate(300deg);
 }
+.clock .number10 div {
+  transform: rotate(-300deg);
+}
 .clock .number11 {
   transform: rotate(330deg);
+}
+.clock .number11 div {
+  transform: rotate(-330deg);
 }
 .clock .number12 {
   transform: rotate(0deg);
