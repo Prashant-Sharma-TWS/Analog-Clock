@@ -9,9 +9,9 @@ function setClock() {
   let minutes = (seconds + currDate.getMinutes()) / 60;
   let hours = (minutes + currDate.getHours()) / 12;
 
-  hourHand.style.setProperty("--rotation", hours * 360);
-  minuteHand.style.setProperty("--rotation", minutes * 360);
-  secondHand.style.setProperty("--rotation", seconds * 360);
+  hourHand.style.transform = "rotate(" + hours * 360 + "deg)";
+  minuteHand.style.transform = "rotate(" + minutes * 360 + "deg)";
+  secondHand.style.transform = "rotate(" + seconds * 360 + "deg)";
 }
 
 setClock();

@@ -45,7 +45,6 @@ body {
   transform: rotate(0deg);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  transform: rotate(calc(var(--rotation) * 1deg));
 }
 
 .clock .hour {
